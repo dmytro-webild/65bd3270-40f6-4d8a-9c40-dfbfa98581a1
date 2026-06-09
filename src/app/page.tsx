@@ -49,7 +49,7 @@ export default function LandingPage() {
           title="Reveal Your Best Skin & Hair"
           description="Advanced Skin, Hair & Aesthetic Treatments Designed To Help You Look And Feel Your Best."
           tag="Udaipur's Premier Aesthetic Clinic"
-          tagIcon="Star"
+          tagIcon={Star}
           buttons={[
             { text: "Book Appointment", href: "#contact" },
             { text: "WhatsApp Now", href: "https://wa.me/919571920736" },
@@ -78,14 +78,13 @@ export default function LandingPage() {
           ]}
           useInvertedBackground={false}
           textboxLayout="default"
-          animationType="none"
           showCard={false}
         />
       </div>
       <div id="about" data-section="about">
         <TextAbout
           title="Your Journey to Radiant Skin and Hair Begins Here"
-          description="Dr Akshay's Aesthetic Clinic is dedicated to providing advanced skin and hair treatments using modern techniques, personalized care, and world-class technology. We believe in transforming confidence by delivering exceptional results with a patient-centered approach."
+          text="Dr Akshay's Aesthetic Clinic is dedicated to providing advanced skin and hair treatments using modern techniques, personalized care, and world-class technology. We believe in transforming confidence by delivering exceptional results with a patient-centered approach."
           tag="About Our Clinic"
           useInvertedBackground={false}
         />
@@ -199,7 +198,7 @@ export default function LandingPage() {
       </div>
       <div id="contact" data-section="contact">
         <ContactText
-          title="Book Your Consultation Today"
+          heading="Book Your Consultation Today"
           text="Take the first step toward healthier skin and more confident hair. Fill out the form below or contact us directly to schedule your personalized consultation. Our team is ready to assist you on your aesthetic journey.\n\n**Address:** Kumkum Apartment, B-803, Mahaveer Colony Park, Udaipur, Rajasthan 313001\n\n**Phone:** 095719 20736\n\n**Working Hours:** Mon-Sat: 10 AM - 7 PM, Sun: Closed\n\nWe offer instant booking, WhatsApp & email confirmations, and a seamless booking experience."
           buttons={[
             { text: "Book Appointment", href: "#" },
