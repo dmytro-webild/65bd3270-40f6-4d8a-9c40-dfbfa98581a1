@@ -197,7 +197,7 @@ export default function LandingPage() {
       </div>
       <div id="contact" data-section="contact">
         <ContactText
-          description="Take the first step toward healthier skin and more confident hair. Fill out the form below or contact us directly to schedule your personalized consultation. Our team is ready to assist you on your aesthetic journey.\n\n**Address:** Kumkum Apartment, B-803, Mahaveer Colony Park, Udaipur, Rajasthan 313001\n\n**Phone:** 095719 20736\n\n**Working Hours:** Mon-Sat: 10 AM - 7 PM, Sun: Closed\n\nWe offer instant booking, WhatsApp & email confirmations, and a seamless booking experience."
+          text="Take the first step toward healthier skin and more confident hair. Fill out the form below or contact us directly to schedule your personalized consultation. Our team is ready to assist you on your aesthetic journey.\n\n**Address:** Kumkum Apartment, B-803, Mahaveer Colony Park, Udaipur, Rajasthan 313001\n\n**Phone:** 095719 20736\n\n**Working Hours:** Mon-Sat: 10 AM - 7 PM, Sun: Closed\n\nWe offer instant booking, WhatsApp & email confirmations, and a seamless booking experience."
           buttons={[
             { text: "Book Appointment", href: "#" },
             { text: "WhatsApp Now", href: "https://wa.me/919571920736" },
